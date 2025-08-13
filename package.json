@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@abhishekbarve/components": "^1.3.0",
+    "@abhishekbarve/components": "^1.3.4",
     "@gsap/react": "^2.1.2",
     "gsap": "^3.13.0",
     "next": "15.4.6",

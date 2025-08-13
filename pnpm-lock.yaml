@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@abhishekbarve/components':
-        specifier: ^1.3.0
-        version: 1.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@7.1.2(@types/node@20.19.10)(jiti@2.5.1)(lightningcss@1.30.1))
+        specifier: ^1.3.4
+        version: 1.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@7.1.2(@types/node@20.19.10)(jiti@2.5.1)(lightningcss@1.30.1))
       '@gsap/react':
         specifier: ^2.1.2
         version: 2.1.2(gsap@3.13.0)(react@19.1.0)
@@ -60,8 +60,8 @@ importers:
 
 packages:
 
-  '@abhishekbarve/components@1.3.0':
-    resolution: {integrity: sha512-3W7249EYcCh3oVTlLzwb6pFo1/KqyvVEE+CmTen/gjho3C6syZ/1TwNV2Benv6m+uuREH/ajt5a+fsopzMtvxw==}
+  '@abhishekbarve/components@1.3.4':
+    resolution: {integrity: sha512-Ovcz0XbspIymXBWxut6LSWz6z5MCCSJSCLdgWf/dy/tOsX1rn1dD9iiRR8IEhk6VK7xJkvu5GdBwaYVcBR28Gw==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -2164,7 +2164,7 @@ packages:
 
 snapshots:
 
-  '@abhishekbarve/components@1.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@7.1.2(@types/node@20.19.10)(jiti@2.5.1)(lightningcss@1.30.1))':
+  '@abhishekbarve/components@1.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@7.1.2(@types/node@20.19.10)(jiti@2.5.1)(lightningcss@1.30.1))':
     dependencies:
       '@gsap/react': 2.1.2(gsap@3.13.0)(react@19.1.0)
       '@tailwindcss/vite': 4.1.11(vite@7.1.2(@types/node@20.19.10)(jiti@2.5.1)(lightningcss@1.30.1))

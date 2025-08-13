@@ -38,52 +38,56 @@ function Page() {
         {/* Inputs */}
         <Tabs.Content value="inputs" className="space-y-4">
           <Section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-            <Link href="/components/button">
-              <Card className="transition-transform duration-300 [transition-timing-function:cubic-bezier(.215,.61,.355,1)] hover:scale-[1.01] motion-reduce:transform-none">
-                <Card.Header>
-                  <Card.Title>Button</Card.Title>
-                  <Card.Description>Variants and sizes</Card.Description>
-                </Card.Header>
-                <Card.Content className="flex flex-wrap gap-2">
-                  <Button className="transition-colors duration-200 ease">
-                    Default
-                  </Button>
-                  <Button
-                    variant="primary"
-                    className="transition-colors duration-200 ease"
-                  >
-                    Primary
-                  </Button>
-                  <Button
-                    variant="secondary"
-                    className="transition-colors duration-200 ease"
-                  >
-                    Secondary
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="transition-colors duration-200 ease"
-                  >
-                    Outline
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    className="transition-colors duration-200 ease"
-                  >
-                    Ghost
-                  </Button>
-                  <Button
-                    variant="destructive"
-                    className="transition-colors duration-200 ease"
-                  >
-                    Destructive
-                  </Button>
-                </Card.Content>
-                <Card.Footer>
-                  <Link href="/components/button">View documentation</Link>
-                </Card.Footer>
-              </Card>
-            </Link>
+            <Card
+              className="group transition-transform duration-300 [transition-timing-function:cubic-bezier(.215,.61,.355,1)] hover:scale-[1.01] motion-reduce:transform-none"
+              href="/components/button"
+              LinkComponent={Link as any}
+            >
+              <Card.Header>
+                <Card.Title>Button</Card.Title>
+                <Card.Description>Variants and sizes</Card.Description>
+              </Card.Header>
+              <Card.Content className="flex flex-wrap gap-2">
+                <Button className="transition-colors duration-200 ease">
+                  Default
+                </Button>
+                <Button
+                  variant="primary"
+                  className="transition-colors duration-200 ease"
+                >
+                  Primary
+                </Button>
+                <Button
+                  variant="secondary"
+                  className="transition-colors duration-200 ease"
+                >
+                  Secondary
+                </Button>
+                <Button
+                  variant="outline"
+                  className="transition-colors duration-200 ease"
+                >
+                  Outline
+                </Button>
+                <Button
+                  variant="ghost"
+                  className="transition-colors duration-200 ease"
+                >
+                  Ghost
+                </Button>
+                <Button
+                  variant="destructive"
+                  className="transition-colors duration-200 ease"
+                >
+                  Destructive
+                </Button>
+              </Card.Content>
+              <Card.Footer>
+                <span className="hover:group-hover:underline">
+                  View documentation
+                </span>
+              </Card.Footer>
+            </Card>
           </Section>
         </Tabs.Content>
       </Tabs>

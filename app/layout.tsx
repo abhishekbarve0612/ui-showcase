@@ -36,7 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider defaultTheme="light" storageKey="ui-theme">
-          <div className="min-h-[100dvh] bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+          <div className="flex flex-col min-h-[100dvh] bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
             <Header>
               <Navbar>
                 <Navbar.Brand>UI Showcase</Navbar.Brand>

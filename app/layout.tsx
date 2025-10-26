@@ -39,7 +39,12 @@ export default function RootLayout({
           <div className="flex flex-col min-h-[100dvh] bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
             <Header>
               <Navbar>
-                <Navbar.Brand>UI Showcase</Navbar.Brand>
+                <Navbar.Brand className="flex flex-col gap-2 items-start justify-start">
+                  UI Showcase
+                  <Link className=" text-blue-500 hover:text-blue-700" href="https://www.npmjs.com/package/@abhishekbarve/components">
+                    @abhishekbarve/components
+                  </Link>
+                </Navbar.Brand>
                 <Navbar.Group align="right">
                   <Link href="/">
                     <Navbar.Item>Home</Navbar.Item>

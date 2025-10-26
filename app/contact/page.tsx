@@ -48,6 +48,7 @@ function ContactPage() {
                     {SOCIAL_LINKS.map((link) => (
                         <Link
                             href={link.url}
+                            key={link.name}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group flex items-center gap-3 rounded-lg border border-slate-200 p-4 text-slate-700 transition-colors hover:border-blue-500 hover:text-blue-600 hover:scale-105 transition-all duration-300 dark:border-slate-700 dark:text-slate-200 dark:hover:border-blue-400"

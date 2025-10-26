@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function AboutPage() {
     return (
-        <Section className="space-y-12 max-w-4xl m-auto">
+        <Section className="space-y-12 max-w-4xl ml-4">
             <div className="space-y-4">
                 <Heading.H1>About UI Showcase</Heading.H1>
                 <p className="text-slate-600 dark:text-slate-300">

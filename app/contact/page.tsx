@@ -21,7 +21,7 @@ const EMAIL = "abhishek@barve.dev";
 
 function ContactPage() {
     return (
-        <Section className="space-y-12 max-w-3xl m-auto">
+        <Section className="space-y-12 max-w-3xl ml-4">
             <div className="space-y-4">
                 <Heading.H1>Contact</Heading.H1>
                 <p className="text-slate-600 dark:text-slate-300">

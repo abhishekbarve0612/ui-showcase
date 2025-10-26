@@ -1,4 +1,3 @@
-
 import SandpackComponent from "@/client-components/SandpackComponent";
 import getCodeSnippet from "./code"
 

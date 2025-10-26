@@ -1,4 +1,4 @@
-export default function getChatCodeSnippet(): string {
+export default function getCodeSnippet(): string {
     return `
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import "@abhishekbarve/components/styles";

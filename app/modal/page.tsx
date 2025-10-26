@@ -1,16 +1,7 @@
 
-'use client'
-import { Sandpack, SandpackThemeProp } from "@codesandbox/sandpack-react"
 import { getModalCodeSnippet, getControlledModalCodeSnippet } from "./code"
 import { getTailwndCssConfig } from "../utils"
-import { useTheme } from "@abhishekbarve/components";
-
-const dependencies = {
-    '@abhishekbarve/components': 'latest',
-    'tailwindcss': 'latest',
-    '@tailwindcss/postcss': 'latest',
-    'react-icons': 'latest',
-}
+import SandpackComponent from "@/client-components/SandpackComponent";
 
 const files = {
     'App.tsx': `
@@ -30,23 +21,10 @@ const files = {
     'globals.css': getTailwndCssConfig().toString(),
 }
 
-function ModalDemo() {
-    const { theme } = useTheme();
+function Demo() {
     return (
-        <Sandpack
-            template="react-ts"
-            theme={theme as unknown as SandpackThemeProp}
-            customSetup={{
-                dependencies,
-            }}
-            files={files}
-            options={{
-                editorHeight: '480px',
-                showConsoleButton: true,
-                wrapContent: true,
-            }}
-        />
+        <SandpackComponent files={files} />
     )
 }
 
-export default ModalDemo;
+export default Demo;

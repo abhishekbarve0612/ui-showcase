@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 function Page() {
   return (
-    <Section className="space-y-8 flex flex-col items-start gap-4">
+    <Section className="space-y-8 flex flex-col items-start gap-4 ml-4">
       <Heading.H3>Basic Components</Heading.H3>
       <div className="flex flex-row gap-6">
         <Link href="/buttons" className="text-blue-500 hover:text-blue-700">Buttons</Link>
